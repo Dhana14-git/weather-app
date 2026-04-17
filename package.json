@@ -1,0 +1,27 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "A full-stack weather forecast application built with **React**, **Node.js/Express**, and the **OpenWeatherMap API**. Features a secure backend proxy, server-side caching, geolocation support, and a polished glassmorphism UI.",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dhana14-git/weather-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Dhana14-git/weather-app/issues"
+  },
+  "homepage": "https://github.com/Dhana14-git/weather-app#readme",
+  "dependencies": {
+    "axios": "^1.15.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}
